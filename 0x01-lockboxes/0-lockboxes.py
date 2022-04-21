@@ -8,6 +8,9 @@ def canUnlockAll(boxes):
     """
     Something here
     """
+    if len(boxes) <= 1:
+        return True
+
     listAux = boxes[0]
     for idx in listAux:
         if boxes[idx] == []:
