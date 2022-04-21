@@ -20,10 +20,7 @@ def canUnlockAll(boxes):
     liCompare = []
     for x in range(0, len(boxes)):
         liCompare.append(x)
-
-    print(liCompare)
     listAux.sort()
-    print(listAux)
     if listAux == liCompare:
         return True
     return False
