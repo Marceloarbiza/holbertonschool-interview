@@ -10,6 +10,8 @@ def canUnlockAll(boxes):
     """
     listAux = boxes[0]
     for idx in listAux:
+        if boxes[idx] == []:
+            listAux.append(0)
         for b in boxes[idx]:
             # if b not in listAux:
             if b not in listAux:
@@ -21,7 +23,7 @@ def canUnlockAll(boxes):
 
     print(liCompare)
     listAux.sort()
-
+    print(listAux)
     if listAux == liCompare:
         return True
     return False
