@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Funct that count line by line"""
+""" Funct that count line by li"""
 import sys
 
 
